@@ -20,5 +20,15 @@ class CalculatorSpec extends AnyFlatSpec {
     "subtract" should "subtract two negative integers" in {
         val difference = Calculator.subtract(-3, -1)
         assert (difference == -2)
-    }    
+    }
+
+    "multiply" should "multiply two single digit numbers"  in {
+        val product = Calculator.multiply(3, 4)
+        assert (product == 12)
+    }
+
+    "multiply" should "multiply two double digit numbers"  in {
+        val product = Calculator.multiply(40, 30)
+        assert (product == 1200)
+    }
 }
