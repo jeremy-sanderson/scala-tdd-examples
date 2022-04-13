@@ -11,4 +11,14 @@ class CalculatorSpec extends AnyFlatSpec {
         val sum = Calculator.add(-1, -2)
         assert(sum == -3)
     }
+
+    "subtract" should "subtract two positive integers" in {
+        val difference = Calculator.subtract(3, 1)
+        assert (difference == 2)
+    }
+
+    "subtract" should "subtract two negative integers" in {
+        val difference = Calculator.subtract(-3, -1)
+        assert (difference == -2)
+    }    
 }
