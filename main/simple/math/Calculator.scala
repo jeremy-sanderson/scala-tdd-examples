@@ -12,4 +12,8 @@ object Calculator {
   def multiply (x: Int, y: Int): Int = {
     x * y
   }
+
+  def modulus (x: Int, y: Int): Int = {
+    x / y
+  }
 }

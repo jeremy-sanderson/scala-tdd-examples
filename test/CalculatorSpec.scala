@@ -31,4 +31,14 @@ class CalculatorSpec extends AnyFlatSpec {
         val product = Calculator.multiply(40, 30)
         assert (product == 1200)
     }
+
+    "modulus" should "find remainder of division for two integers" in {
+        val modulus = Calculator.modulus(20, 7)
+        assert (modulus == 6)
+    }
+
+    "modulus" should "be 0 for exact multiples of second parameter" in {
+        val modulus = Calculator.modulus(27, 3)
+        assert (modulus == 0)
+    }
 }
