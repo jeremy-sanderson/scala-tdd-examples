@@ -10,6 +10,6 @@ object Calculator {
   }
 
   def multiply (x: Int, y: Int): Int = {
-    x / y
+    x * y
   }
 }
