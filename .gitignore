@@ -1,2 +1,11 @@
 *.class
 *.log
+bazel-scala-tdd-examples
+.gitignore
+.gitignore
+bazel-testlogs
+bazel-out
+bazel-bin
+.metals/metals.lock.db
+.metals/metals.mv.db
+.vscode
