@@ -14,7 +14,6 @@ object Calculator {
   }
 
   def modulus (x: Int, y: Int): Int = {
-    val quotient = x / y
-    x - (y * quotient)
+    x % y
   }
 }
