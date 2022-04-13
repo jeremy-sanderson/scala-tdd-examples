@@ -6,6 +6,6 @@ object Calculator {
   }
 
   def subtract (x: Int, y: Int): Int = {
-    x + y
+    x - y
   }
 }
