@@ -46,21 +46,21 @@ bazel test --test_output=errors //test:calculatorspec
 These branches represent the different iterations of the test driven development effort for this library
 
 - _add-failing-tests_
- - The tests are written first with deliberately failing code, then the tests are executed to ensure that they fail
+    - The tests are written first with deliberately failing code, then the tests are executed to ensure that they fail
 - _add-passing-tests_
- - The _code_ is fixed so that the tests will pass
+    - The _code_ is fixed so that the tests will pass
 - _subtract-failing-tests_
- - The tests are written first with deliberately failing code, then the tests are executed to ensure that they fail
+    - The tests are written first with deliberately failing code, then the tests are executed to ensure that they fail
 - _subtract-passing-tests_
- - The _code_ is fixed so that the tests will pass
+    - The _code_ is fixed so that the tests will pass
 - _multiply-failing-tests_
- - The tests are written first with deliberately failing code, then the tests are executed to ensure that they fail
+    - The tests are written first with deliberately failing code, then the tests are executed to ensure that they fail
 - _multiply-passing-tests_
- - The _code_ is fixed so that the tests will pass
+    - The _code_ is fixed so that the tests will pass
 - _modulus-failing-tests_
- - The tests are written first with deliberately failing code, then the tests are executed to ensure that they fail
+    - The tests are written first with deliberately failing code, then the tests are executed to ensure that they fail
 - _modulus-passing-tests_
- - The _code_ is fixed so that the tests will pass
+    - The _code_ is fixed so that the tests will pass
 - _modulus-refactor-passing-tests_
- - The implementation of the code in _modulus-passing-tests_ was not optimal. With solid tests in place we can re-factor without fear
+    - The implementation of the code in _modulus-passing-tests_ was not optimal. With solid tests in place we can re-factor without fear
 
