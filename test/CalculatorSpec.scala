@@ -6,4 +6,9 @@ class CalculatorSpec extends AnyFlatSpec {
         val sum = Calculator.add(1, 2)
         assert(sum == 3)
     }
+
+    "add" should "add two negative integers" in {
+        val sum = Calculator.add(-1, -2)
+        assert(sum == -3)
+    }
 }
